@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+:root {
+  --font1: "Inter";
+  --font2: "Open Sans";
+  --cor1: #FF9900;
+  --cor2: #7D7987;
+}
+
+body {
+  font-family: var(--font2);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#hero {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#boneco {
+  width: 568px;
+  margin: 0 auto 72px;
+}
+
+h1 {
+  text-align: center;
+  font-family: var(--font1);
+  font-size: 49px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 56px;
+}
+
+p, #footer {
+  color: var(--cor2);
+  text-align: center;
+  font-family: var(--font2);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+span, a {
+  color: var(--cor1);
+}
+
+.line {
+  width: 568.001px;
+  height: 0px;
+  margin: 0 auto;
+  border: 1px dashed #ECEFF2;
+}
+
+a + a {
+  margin-left: 28px;
+}
